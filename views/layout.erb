@@ -3,11 +3,14 @@
 <head>
   <meta charset="utf-8">
   <title><%= @title %></title>
-  <link rel="stylesheet" type="text/css" media="all" href="/stylesheets/styles.css"/>
+  <link type="text/css" rel="stylesheet" href="/vendor/bootstrap/css/bootstrap.min.css"/>
+  <link type="text/css" rel="stylesheet" href="/css/custom.css"/>
 </head>
 <body>
   <div class="container">
     <%= yield %>
   </div>
+  <script type="text/javascript" src="/vendor/jquery/jquery-1.9.1.min.js"></script>
+  <script type="text/javascript" src="/vendor/bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
