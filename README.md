@@ -11,5 +11,3 @@ Libraries Included:
 
 To Do:
 - Look into sinatra-assetpack
-- Look into adding AngularJS
-- heroku
